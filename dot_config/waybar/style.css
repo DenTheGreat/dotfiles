@@ -1,12 +1,13 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 window#waybar {
     color: #ffffff;
     background-color: transparent;
+
 }
 
 window#waybar.empty {
@@ -60,7 +61,7 @@ button:hover {
 #network
 {
 background-color: transparent;
-padding: 0 5 0;
+padding: 0px 5px 0px;
 }
 
 
@@ -116,7 +117,7 @@ padding: 0 5 0;
 
 #battery.charging, #battery.plugged {
     color: #ffffff;
-    background-color: #26A65B;
+    background-color: #000000;
 }
 
 @keyframes blink {
@@ -127,7 +128,7 @@ padding: 0 5 0;
 }
 
 #battery.critical:not(.charging) {
-    background-color: #f53c3c;
+    background-color: #000000;
     color: #ffffff;
     animation-name: blink;
     animation-duration: 0.5s;
