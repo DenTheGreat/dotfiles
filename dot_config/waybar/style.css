@@ -63,11 +63,15 @@ background-color: transparent;
 padding: 0 5 0;
 }
 
+#calendar{
+font-size: 8px;
+}
 
 #usage,
 #networkgroup,
 #pulseaudio.muted,
 #custom-weather,
+#custom-gammastep,
 #mode,
 #idle_inhibitor,
 #clock,

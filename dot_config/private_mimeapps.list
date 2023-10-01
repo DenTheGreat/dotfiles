@@ -1,10 +1,19 @@
 [Added Associations]
-application/x-cue=org.strawberrymusicplayer.strawberry.desktop;
+application/x-cue=org.kde.kate.desktop;org.strawberrymusicplayer.strawberry.desktop;
 audio/x-scpls=org.strawberrymusicplayer.strawberry.desktop;
-inode/directory=Thunar.desktop;
+inode/directory=org.kde.ark.desktop;Thunar.desktop;
 text/plain=code-oss.desktop;gimp.desktop;vlc.desktop;org.synfig.SynfigStudio.desktop;
 image/png=org.kde.gwenview.desktop;
 image/webp=org.kde.gwenview.desktop;
+application/x-zerosize=org.kde.kate.desktop;
+image/jpeg=org.kde.gwenview.desktop;
+audio/x-mpegurl=org.strawberrymusicplayer.strawberry.desktop;
+audio/flac=org.strawberrymusicplayer.strawberry.desktop;
+audio/mpeg=org.strawberrymusicplayer.strawberry.desktop;
+application/x-desktop=org.kde.kate.desktop;
+application/x-shellscript=code-oss.desktop;
+application/json=code-oss.desktop;
+application/vnd.rar=xarchiver.desktop;
 
 [Default Applications]
 application/x-cue=org.strawberrymusicplayer.strawberry.desktop;
@@ -15,3 +24,5 @@ x-scheme-handler/about=firefox.desktop
 x-scheme-handler/http=firefox.desktop
 x-scheme-handler/https=firefox.desktop
 x-scheme-handler/unknown=firefox.desktop
+application/x-zerosize=org.kde.kate.desktop
+audio/flac=org.strawberrymusicplayer.strawberry.desktop
