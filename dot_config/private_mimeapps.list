@@ -1,28 +1,33 @@
 [Added Associations]
 application/x-cue=org.kde.kate.desktop;org.strawberrymusicplayer.strawberry.desktop;
 audio/x-scpls=org.strawberrymusicplayer.strawberry.desktop;
-inode/directory=org.kde.ark.desktop;Thunar.desktop;
-text/plain=code-oss.desktop;gimp.desktop;vlc.desktop;org.synfig.SynfigStudio.desktop;
-image/png=qiv.desktop;org.kde.gwenview.desktop;gimp.desktop;
+inode/directory=pcmanfm,desktop
+text/plain=org.kde.kate.desktop;code-oss.desktop;gimp.desktop;vlc.desktop;org.synfig.SynfigStudio.desktop;
+image/png=org.kde.gwenview.desktop;qiv.desktop;gimp.desktop;
 image/webp=org.kde.gwenview.desktop;
 application/x-zerosize=org.kde.kate.desktop;org.onlyoffice.desktopeditors.desktop;
-image/jpeg=org.kde.gwenview.desktop;
+image/jpeg=qiv.desktop;org.kde.gwenview.desktop;gimp.desktop;
 audio/x-mpegurl=org.strawberrymusicplayer.strawberry.desktop;
 audio/flac=org.strawberrymusicplayer.strawberry.desktop;
 audio/mpeg=org.strawberrymusicplayer.strawberry.desktop;
 application/x-desktop=org.kde.kate.desktop;
 application/x-shellscript=org.kde.kate.desktop;code-oss.desktop;
 application/json=code-oss.desktop;
-application/vnd.rar=xarchiver.desktop;org.kde.ark.desktop;
+application/vnd.rar=org.kde.ark.desktop;xarchiver.desktop;
 application/x-iff=org.kde.kate.desktop;
 application/x-spss-sav=org.kde.kate.desktop;
 application/zip=xarchiver.desktop;
 image/gif=org.kde.gwenview.desktop;
+application/x-7z-compressed=xarchiver.desktop;
+application/x-ms-dos-executable=wine.desktop;
+audio/x-wavpack=org.strawberrymusicplayer.strawberry.desktop;
+application/vnd.iccprofile=code-oss.desktop;
+application/x-ms-shortcut=code-oss.desktop;
 
 [Default Applications]
 application/x-cue=org.strawberrymusicplayer.strawberry.desktop;
 audio/x-scpls=org.strawberrymusicplayer.strawberry.desktop;
-inode/directory=Thunar.desktop;
+inode/directory=pcmanfm,desktop
 text/html=firefox.desktop
 x-scheme-handler/about=firefox.desktop
 x-scheme-handler/http=firefox.desktop
@@ -32,3 +37,6 @@ application/x-zerosize=org.onlyoffice.desktopeditors.desktop
 audio/flac=org.strawberrymusicplayer.strawberry.desktop
 application/x-iff=org.kde.kate.desktop
 application/x-spss-sav=org.kde.kate.desktop
+application/x-ms-dos-executable=wine.desktop
+audio/x-wavpack=org.strawberrymusicplayer.strawberry.desktop
+image/png=org.kde.gwenview.desktop
