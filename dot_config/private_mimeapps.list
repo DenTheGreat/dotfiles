@@ -1,7 +1,7 @@
 [Added Associations]
 application/x-cue=org.kde.kate.desktop;org.strawberrymusicplayer.strawberry.desktop;
 audio/x-scpls=org.strawberrymusicplayer.strawberry.desktop;
-inode/directory=pcmanfm,desktop
+inode/directory=pcmanfm.desktop
 text/plain=org.kde.kate.desktop;code-oss.desktop;gimp.desktop;vlc.desktop;org.synfig.SynfigStudio.desktop;
 image/png=org.kde.gwenview.desktop;qiv.desktop;gimp.desktop;
 image/webp=org.kde.gwenview.desktop;
@@ -23,11 +23,14 @@ application/x-ms-dos-executable=wine.desktop;
 audio/x-wavpack=org.strawberrymusicplayer.strawberry.desktop;
 application/vnd.iccprofile=code-oss.desktop;
 application/x-ms-shortcut=code-oss.desktop;
+application/octet-stream=org.kde.kate.desktop;
+inode/chardevice=org.kde.kate.desktop;
+font/ttf=org.kde.kate.desktop;
 
 [Default Applications]
 application/x-cue=org.strawberrymusicplayer.strawberry.desktop;
 audio/x-scpls=org.strawberrymusicplayer.strawberry.desktop;
-inode/directory=pcmanfm,desktop
+inode/directory=pcmanfm.desktop
 text/html=firefox.desktop
 x-scheme-handler/about=firefox.desktop
 x-scheme-handler/http=firefox.desktop
